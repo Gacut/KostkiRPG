@@ -1,9 +1,21 @@
+import random, sys
 #First programming attempt of my own program
 #Made by xGacutx
 #N00biePy7h0n
 
 
-import random, sys
+print('''
+
+		    ____  ____  ______   ____  _               
+		   / __ \/ __ \/ ____/  / __ \(_)_______  _____
+		  / /_/ / /_/ / / __   / / / / / ___/ _ \/ ___/
+		 / _, _/ ____/ /_/ /  / /_/ / / /__/  __(__  ) 
+		/_/ |_/_/    \____/  /_____/_/\___/\___/____/  
+                                               
+
+					Made by Gacut
+					ASCII text from http://patorjk.com
+	''')
 
 def title(): #I treat it like a "come back here while entering 'b'"
     
@@ -194,7 +206,7 @@ def title(): #I treat it like a "come back here while entering 'b'"
                                 title()
 
                         
-            kosc = rzut(str(input())) # Main menu selector
+            kosc = rzut(str(input('\nWybierz kość:'))) # Main menu selector
             if kosc == rzut('q'): # If you press 'q' in main menu selector, it will close the app
                 sys.exit()
 
@@ -202,6 +214,3 @@ def title(): #I treat it like a "come back here while entering 'b'"
 title() # this is where program starts. It prints everithing under title definition.
 
     
-
-       
-
